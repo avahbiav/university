@@ -75,6 +75,30 @@ header button {
   padding: 10px 30px;
   display: inline-block;
 }
+.dots li {
+  border-radius: 60%;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid white;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+.main_visual {
+  position: relative;
+}
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dots .active {
+  background: orange;
+}
+.dots li:last-child {
+  margin-right: 0px;
+}
 /* end of main_visual */
 
 /* start of programmes */
@@ -179,7 +203,7 @@ header button {
 /* start of research1 */
 .research1 {
   background-color: #fff;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 20px 0px;
   margin-top: 20px;
 }
 .research1 img {
@@ -194,20 +218,24 @@ header button {
   font-family: 'PT Serif', Serif;
   word-spacing: 3px;
 }
+.research1 a:hover {
+  color: orange;
+}
 .research1 p {
   font-size: 15px;
   font-family: 'lato', sans-serif;
   color: #373535;
-  padding: 10px;
+  padding: 12px;
   word-spacing: 3px;
   border-bottom: 3px solid #f6bb4a;
+  margin-bottom: 15px;
 }
 /* end of research1 */
 
 /* start of research2 */
 .research2 {
   background-color: #fff;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 20px 0px;
   margin-top: 40px;
 }
 .research2 img {
@@ -222,20 +250,24 @@ header button {
   font-family: 'PT Serif', Serif;
   word-spacing: 3px;
 }
+.research2 a:hover {
+  color: orange;
+}
 .research2 p {
   font-size: 15px;
   font-family: 'lato', sans-serif;
   color: #373535;
-  padding: 10px;
+  padding: 12px;
   word-spacing: 3px;
   border-bottom: 3px solid #f6bb4a;
+  margin-bottom: 15px;
 }
 /* end of research2 */
 
 /* start of research3 */
 .research3 {
   background-color: #fff;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 20px 0px;
   margin-top: 40px;
 }
 .research3 img {
@@ -250,13 +282,17 @@ header button {
   font-family: 'PT Serif', Serif;
   word-spacing: 3px;
 }
+.research3 a:hover {
+  color: orange;
+}
 .research3 p {
   font-size: 15px;
   font-family: 'lato', sans-serif;
   color: #373535;
-  padding: 10px;
+  padding: 12px;
   word-spacing: 3px;
   border-bottom: 3px solid #f6bb4a;
+  margin-bottom: 15px;
 }
 /* end of research3 */
 /* end of research */
