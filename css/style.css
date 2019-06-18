@@ -462,7 +462,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 110px;
+    padding: 0px 160px;
   }
   header .pc .logo {
     width: 300px;
@@ -552,9 +552,17 @@ footer p {
     bottom: 10px;
     left: 10%;
   }
-  h1 {
+  .main_visual h1 {
     letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 40px;
+  }
+  .main_visual p {
+    font-size: 25px;
     word-spacing: 3px;
+  }
+  .main_visual a {
+    font-size: 20px;
   }
   /* end of main visual */
 
