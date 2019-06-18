@@ -112,6 +112,7 @@ header button {
 }
 .programmes .container {
   text-align: center;
+  max-width: 1200px;
 }
 .programmes h3 {
   font-size: 30px;
@@ -460,7 +461,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 130px;
+    padding: 0px 110px;
   }
   header .pc .logo {
     width: 300px;
@@ -557,31 +558,65 @@ footer p {
   /* end of main visual */
 
   /* start of programmes */
+  .programmes h3 {
+    font-size: 40px;
+  }
   .programmes .ug {
     display: flex;
+    margin-top: 20px;
   }
   .ug_img img {
     position: relative;
     top: 20px;
-    left: 60px;
+    left: 40px;
+    width: 400px;
+    height: 300px;
   }
   .ug_content {
-    padding: 10px 10px;
+    padding: 32px 30px;
+  }
+  .ug_content h4 {
+    font-size: 25px;
+  }
+  .ug_content p {
+    font-size: 20px;
+    padding: 18px;
+    word-spacing: 5px;
+  }
+  .ug_content a {
+    font-size: 20px;
   }
   .programmes .pg {
     display: flex;
+    margin-top: 20px;
   }
   .pg_img img {
     position: relative;
     top: 20px;
-    left: 60px;
+    left: 40px;
+    width: 400px;
+    height: 300px;
   }
   .pg_content {
-    padding: 10px 10px;
+    padding: 32px 30px;
+  }
+  .pg_content h4 {
+    font-size: 25px;
+  }
+  .pg_content p {
+    font-size: 20px;
+    padding: 18px;
+    word-spacing: 5px;
+  }
+  .pg_content a {
+    font-size: 20px;
   }
   /* end of programmes */
 
   /* start of research */
+  .researches h3 {
+    font-size: 40px;
+  }
   .researches .container {
     display: flex;
     justify-content: space-between;
@@ -593,6 +628,9 @@ footer p {
   /* end of research */
 
   /* start of news */
+  .news h3 {
+    font-size: 40px;
+  }
   .news .container {
     display: flex;
     justify-content: space-between;
@@ -604,6 +642,9 @@ footer p {
   /* end of news */
 
   /* start of events */
+  .events h3 {
+    font-size: 40px;
+  }
   .events .container {
     display: flex;
     justify-content: space-between;
