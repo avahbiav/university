@@ -27,6 +27,7 @@ header .s_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 30px;
 }
 header .smart .logo {
   width: 170px;
