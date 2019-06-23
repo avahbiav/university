@@ -27,7 +27,7 @@ header .s_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 30px;
+  padding: 10px 30px;
 }
 header .smart .logo {
   width: 170px;
@@ -53,7 +53,7 @@ header button {
   background-repeat: no-repeat;
   color: #fff;
   text-align: center;
-  padding: 94px 0px;
+  padding: 93px 0px;
   background-position: center;
   background-color: #00000073;
   background-blend-mode: overlay;
@@ -109,7 +109,7 @@ header button {
 /* start of programmes */
 .programmes {
   background-color: #dddddd;
-  padding: 15px 0px 60px 0px;
+  padding: 14px 0px 60px 0px;
 }
 .programmes .container {
   text-align: center;
@@ -374,8 +374,9 @@ header button {
   background-color: #f6bb4a;
   color: #fff;
   font-family: 'PT Serif', Serif;
+  font-size: 20px;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin-top: 15px;
 }
 .event .date:hover {
@@ -394,7 +395,7 @@ footer {
   padding: 0px 0px 10px 0px;
 }
 footer .logo img {
-  width: 240px;
+  width: 200px;
   padding: 15px;
 }
 footer hr {
@@ -418,6 +419,7 @@ footer p {
 }
 /* end of footer */
 
+/* start of media query */
 @media only screen and (max-width:767px) {
   .pc {
     display: none;
@@ -462,7 +464,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 160px;
+    padding: 5px 150px;
   }
   header .pc .logo {
     width: 300px;
@@ -500,17 +502,13 @@ footer p {
     color: #0b3574;
     display: flex;
     align-items: center;
-    padding: 5px 5px;
     font-family: 'PT serif', serif;
-    max-width: 1232px;
-    margin-right: 0px;
-    margin-left: 50px;
+    place-content: center;
   }
   .bottom_head .left_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
   }
   .bottom_head .right_nav {
     display: flex;
@@ -521,12 +519,13 @@ footer p {
     padding: 20px;
   }
   .right_nav li {
-    padding: 20px;
+    padding: 15px;
   }
   .bottom_head a {
     color: #0b3574;
     font-family: 'lato', sans-serif;
     font-size: 20px;
+    padding: 5px;
   }
   .bottom_head a:hover {
     color: orange;
@@ -550,7 +549,7 @@ footer p {
   .dots {
     position: absolute;
     bottom: 10px;
-    left: 10%;
+    left: 5%;
   }
   .main_visual h1 {
     letter-spacing: 5px;
@@ -576,46 +575,48 @@ footer p {
   }
   .ug_img img {
     position: relative;
-    top: 20px;
-    left: 40px;
-    width: 400px;
-    height: 300px;
+    top: 45px;
+    left: 50px;
+    width: 500px;
   }
   .ug_content {
-    padding: 32px 30px;
+    padding: 15px 23px 35px 57px;
   }
   .ug_content h4 {
     font-size: 25px;
+    letter-spacing: 3px;
   }
   .ug_content p {
     font-size: 20px;
-    padding: 18px;
-    word-spacing: 5px;
+    padding: 20px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
   }
   .ug_content a {
     font-size: 20px;
   }
   .programmes .pg {
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .pg_img img {
     position: relative;
-    top: 20px;
-    left: 40px;
-    width: 400px;
-    height: 300px;
+    top: 45px;
+    left: 50px;
+    width: 500px;
   }
   .pg_content {
-    padding: 32px 30px;
+    padding: 15px 23px 35px 57px;
   }
   .pg_content h4 {
     font-size: 25px;
+    letter-spacing: 3px;
   }
   .pg_content p {
     font-size: 20px;
-    padding: 18px;
-    word-spacing: 5px;
+    padding: 20px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
   }
   .pg_content a {
     font-size: 20px;
@@ -683,8 +684,11 @@ footer p {
     align-items: center;
     flex-direction: column;
   }
+  footer .footer_nav img {
+    width: 50%;
+  }
   footer .logo img {
-    width: 270px;
+    width: 240px;
   }
   footer p {
     padding-top: 20px;
@@ -694,3 +698,4 @@ footer p {
   }
   /* end of footer */
 }
+/* end of media query */
