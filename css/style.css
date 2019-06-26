@@ -549,7 +549,11 @@ footer p {
   .dots {
     position: absolute;
     bottom: 10px;
+<<<<<<< HEAD
     left: 9%;
+=======
+    left: 5%;
+>>>>>>> 55e1b3f89f754080f21dd25deb1f1cb2e948bbac
   }
   .main_visual h1 {
     letter-spacing: 5px;
