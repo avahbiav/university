@@ -15,7 +15,17 @@
   <div class="smart">
     <div class="s_container">
       <a class="logo" href="index.html"><img src="images/hlogo.jpg" alt="Header Logo"></a>
-      <button><i class="fas fa-bars"></i></button>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#about">About</a>
+          <a href="#programmes">Programmes</a>
+          <a href="#admissions">Admissions</a>
+          <a href="#research">Research</a>
+          <a href="#news">News</a>
+          <a href="#events">Events</a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="pc">
@@ -33,17 +43,17 @@
       </nav>
       <div class="bottom_head">
         <ul class="left_nav">
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">PROGRAMMES</a></li>
-          <li><a href="">ADMISSIONS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#programmes">PROGRAMMES</a></li>
+          <li><a href="#admissions">ADMISSIONS</a></li>
         </ul>
         <div class="pc_logo">
           <a class="logo" href="index.html"><img src="images/hlogo.jpg" alt="Header Logo"></a>
         </div>
         <ul class="right_nav">
-          <li><a href="">RESEARCH</a></li>
-          <li><a href="">NEWS & EVENTS</a></li>
-          <li><a href="">CONTACT</a></li>
+          <li><a href="#research">RESEARCH</a></li>
+          <li><a href="#news">NEWS & EVENTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -51,7 +61,7 @@
 </header>
 <main>
     <section class="main_visual">
-      <div class="container">
+      <div id="admission" class="container">
         <h1>OUR UNIVERSITY</h1>
         <p class="smart">Art in Teaching and Training <br>Part of Successful Life <br>Smart for Leadership</p>
         <p class="pc">Art in Teaching and Training would always be the <br>Part for your Successful Life from Zeal Learning to <br>Smart Living being Leader with Quality</p>
@@ -63,7 +73,7 @@
         </ul>
       </div>
     </section>
-    <div class="programmes">
+    <div id="programmes" class="programmes">
       <h3>PROGRAMMES</h3>
       <section class="container">
         <div class="ug">
@@ -88,13 +98,13 @@
         </div>
       </section>
     </div>
-    <section class="researches">
+    <section id="research" class="researches">
       <h3>RESEARCH</h3>
       <div class="container">
         <div class="research">
           <div class="r_img">
           </div>
-          <div class="r_content">
+          <div class="r_content1">
             <a href="#">Bio-Technology</a>
             <p>the genetic manipulation <br>of microorganisms</p>
             <a href="#">Bio-Engineering</a>
@@ -103,7 +113,7 @@
         <div class="research">
           <div class="r_img">
           </div>
-          <div class="r_content">
+          <div class="r_content2">
             <a href="#">Botany & Zoology</a>
             <p>the science of <br>plant life and animal life</p>
             <a href="#">Human Anatomy</a>
@@ -112,7 +122,7 @@
         <div class="research">
           <div class="r_img">
           </div>
-          <div class="r_content">
+          <div class="r_content3">
             <a href="#">Artificial Intelligence</a>
             <p>human intelligence <br>processes by machines</p>
             <a href="#">Machine Learning</a>
@@ -120,13 +130,13 @@
         </div>
       </div>
     </section>
-    <div class="news">
+    <div id="news" class="news">
       <h3>NEWS</h3>
       <section class="container">
         <div class="new">
           <div class="n_img">
           </div>
-          <div class="n_content">
+          <div class="n_content1">
             <h4>UNIVERSITY NOTICE</h4>
             <p>Semester Exams and <br>Internal Assignments</p>
             <a href="#">READ MORE</a>
@@ -135,7 +145,7 @@
         <div class="new">
           <div class="n_img">
           </div>
-          <div class="n_content">
+          <div class="n_content2">
             <h4>GLOBAL BUSINESS</h4>
             <p>Economic Development and <br>International Cooperation</p>
             <a href="#">READ MORE</a>
@@ -144,7 +154,7 @@
         <div class="new">
           <div class="n_img">
           </div>
-          <div class="n_content">
+          <div class="n_content3">
             <h4>ART & LITERATURE</h4>
             <p>Foreign Languages <br>and Food Festival</p>
             <a href="#">READ MORE</a>
@@ -152,13 +162,13 @@
         </div>
       </section>
     </div>
-    <section class="events">
+    <section id="about" class="events">
       <h3>EVENTS</h3>
       <div class="container">
         <section class="event">
           <div class="e_img">
           </div>
-          <div class="e_content">
+          <div class="e_content1">
             <h4>Cultural Exchanges</h4>
             <p>every month on languages, <br>food, art, dance & literature</p>
           </div>
@@ -170,7 +180,7 @@
         <section class="event">
           <div class="e_img">
           </div>
-          <div class="e_content">
+          <div class="e_content2">
             <h4>Seminar & Workshop</h4>
             <p>every week on different <br>topics and current affairs</p>
           </div>
@@ -182,7 +192,7 @@
         <section class="event">
           <div class="e_img">
           </div>
-          <div class="e_content">
+          <div class="e_content3">
             <h4>Sports Meet</h4>
             <p>every three months on <br>indoor and outdoor games</p>
           </div>
@@ -195,7 +205,7 @@
     </section>
 </main>
 <footer>
-  <div class="footer_wrap">
+  <div id="contact" class="footer_wrap">
     <a class="logo" href="index.html"><img src="images/flogo.jpg" alt="Footer Logo"></a>
     <h3 class="smart">Learn Create Achieve</h3>
     <h3 class="pc">A Place to Learn & Discover, Create & Deliver, Experience & Express, Achieve & Attain</h3>
@@ -236,5 +246,7 @@
     <p>&copy; 2019 ALL RIGHTS RESERVED</p>
   </div>
 </footer>
+
+ <script src="js/script.js"></script>
 </body>
 </html>

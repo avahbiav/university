@@ -44,11 +44,45 @@ header button {
   font-size: 30px;
   cursor: pointer;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 5px;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #0b3574;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: 'lato', sans-serif;
+}
+.dropdown a:hover {
+  background-color: #0b3574;
+  color: #f6bb4a;
+}
+.dropdown:hover .dropbtn {
+  border: 3px solid orange;
+  color:#0b3574;
+}
+.show {
+  display: block;
+}
 /* end of header */
 
 /* start of main_visual */
 .main_visual {
   background-image: url(../images/mmv.jpg);
+  background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
   color: #fff;
@@ -121,6 +155,7 @@ header button {
   text-align: center;
 }
 /* start of ug */
+
 .ug_img img {
   background-repeat: no-repeat;
   width: 80%;
@@ -251,7 +286,7 @@ header button {
   border-bottom: 3px solid #f6bb4a;
   margin-bottom: 12px;
 }
-.research .r_content {
+.research .r_content1, .r_content2, .r_content3  {
   padding-top: 10px;
 }
 /* end of research */
@@ -566,12 +601,15 @@ footer p {
   /* end of main visual */
 
   /* start of programmes */
+  .programmes {
+    padding: 34px 0px 80px 0px;
+  }
   .programmes h3 {
     font-size: 40px;
   }
   .programmes .ug {
     display: flex;
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .ug_img img {
     position: relative;
@@ -597,16 +635,19 @@ footer p {
   }
   .programmes .pg {
     display: flex;
-    margin-top: 50px;
+    margin-top: 60px;
+  }
+  .pg_content {
+    padding: 15px 57px 35px 23px;
+    transform: translate(-500px);
   }
   .pg_img img {
     position: relative;
     top: 45px;
     left: 50px;
     width: 500px;
-  }
-  .pg_content {
-    padding: 15px 23px 35px 57px;
+    transform: translate(600px);
+    z-index: 1;
   }
   .pg_content h4 {
     font-size: 25px;
@@ -624,6 +665,9 @@ footer p {
   /* end of programmes */
 
   /* start of research */
+  .researches {
+    padding: 30px 0px 90px 0px;
+  }
   .researches h3 {
     font-size: 40px;
   }
@@ -631,6 +675,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
   }
   .researches .research {
     width: 31%;
@@ -638,6 +683,9 @@ footer p {
   /* end of research */
 
   /* start of news */
+  .news {
+    padding: 30px 0px 90px 0px;
+  }
   .news h3 {
     font-size: 40px;
   }
@@ -645,13 +693,26 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
   }
   .news .new {
     width: 31%;
   }
+  .news .new:nth-child(2) .n_img {
+    background-image: url('../images/news2.jpg');
+    position: relative;
+    top: 210px;
+  }
+  .news .new .n_content2 {
+    position: relative;
+    bottom: 190px;
+  }
   /* end of news */
 
   /* start of events */
+  .events {
+    padding: 30px 0px 90px 0px;
+  }
   .events h3 {
     font-size: 40px;
   }
@@ -659,6 +720,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
   }
   .events .event {
     width: 31%;
