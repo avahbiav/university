@@ -675,8 +675,7 @@ footer p {
   }
   .dots {
     position: absolute;
-    bottom: 10px;
-    left: 9%;
+    bottom: 15px;
   }
   .main_visual h1 {
     letter-spacing: 5px;
@@ -710,8 +709,8 @@ footer p {
     width: 500px;
   }
   .ug_img img:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out 0s;
+    transform: none;
+    transition: none;
   }
   .ug_content {
     padding: 15px 23px 35px 57px;
